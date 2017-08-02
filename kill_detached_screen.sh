@@ -1,1 +1,1 @@
-screen -X -S <21747.pts-15.whitney> quit
+screen -X -S 14913.pts-18.whitney quit

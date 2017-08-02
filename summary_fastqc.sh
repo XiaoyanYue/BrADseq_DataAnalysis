@@ -11,6 +11,6 @@ do
 # cat summary file 
 
 cd $i 
-cat summary.txt >> ~/RSA_BrAD_seq_Data/fastqc_:results/summary/summary_all.txt 
+cat summary.txt >> ~/RSA_BrAD_seq_Data/fastqc_results/summary/summary_all.txt 
 cd ..
 done
