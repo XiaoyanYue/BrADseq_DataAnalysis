@@ -1,0 +1,6 @@
+kallisto index -k 19 -i ref_ITAG3.2_cdna.19.kai ~/RSA_BrAD_seq_Data/original_lyco_cDNA/ITAG3.2_cDNA.fasta
+
+warning: clipped off poly-A tail (longer than 10)
+        from 16 target sequences
+[build] warning: replaced 2243 non-ACGUT characters in the input sequence
+        with pseudorandom nucleotides

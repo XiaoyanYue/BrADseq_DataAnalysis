@@ -1,3 +1,3 @@
-fastqc_results
+mkdir fastqc_results
 
-fastqc J*.fastq.gz -o ~/fastqc_results
+fastqc J*.fastq.gz -o fastqc_results
