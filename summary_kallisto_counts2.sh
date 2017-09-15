@@ -1,4 +1,6 @@
 cut -f 1 JILM1_S82_cut_abundance.tsv > all.tsv
+#for combined new and old libs
+#cut -f 1 JISM3_cut_abundance.tsv >> all.tsv
  
 files=`ls J*_abundance.tsv | sed 's/\_cut_abundance.tsv//g'`
 

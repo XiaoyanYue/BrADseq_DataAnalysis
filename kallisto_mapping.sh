@@ -17,4 +17,4 @@ done
 
 #kallisto quant --single --plaintext -l 250 -s 50 -t 8 -i ~/RSA_BrAD_seq_Data/kallisto_indexed_cDNA2/ref_ITAG3.2_cdna.31.kai -o ~/RSA_BrAD_seq_Data/new_trimmed_results2/kallisto_mapping_cDNA2_results/${i}_aligned ${i}_L003_R1_001_trimmed.fastq.gz ${i}_L004_R1_001_trimmed.fastq.gz
 
-#kallisto quant --single --plaintext -l 250 -s 50 -t 8 -i ~/RSA_BrAD_seq_Data/kallisto_indexed_cDNA/ref_ITAG3.2_cdna.19.kai -o ~/RSA_BrAD_seq_Data/trimmed_fastq_combine_reads_from_Mike/kallisto_mapping_cDNA_results/${i}_aligned ${i}_*_R1_001_trimmed.fastq.gz #for combined_new_and_old_lib
+#kallisto quant --single --plaintext -l 250 -s 50 -t 8 -i ~/RSA_BrAD_seq_Data/kallisto_indexed_cDNA/ref_ITAG3.2_cdna.19.kai -o ~/RSA_BrAD_seq_Data/trimmed_fastq_combine_reads_from_Mike/kallisto_mapping_cDNA_results/${i}_aligned ${i}-0001_R1_001_trimmed.fastq.gz ${i}-0002_R1_001_trimmed.fastq.gz ${i}-0003_R1_001_trimmed.fastq.gz ${i}-0004_R1_001_trimmed.fastq.gz ${i}-0005_R1_001_trimmed.fastq.gz ${i}-0006_R1_001_trimmed.fastq.gz
